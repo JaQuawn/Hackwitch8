@@ -21,17 +21,23 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        func centerMapOnLocation(location: CLLocation ){
-            let coordinateRegion = MKCoordinateRegionMakeWithDistance (location.coordinate,regionRadius,regionRadius)
-            MapView.setRegion(coordinateRegion, animated: true)
             
             centerMapOnLocation(location: initialLocation)
             
-            let restaurantOne = Restaurant(title: "kalapawai", type: "American", coordinate: CLLocationCoordinate2D ( latitude: 21.346470, longitude: -158.080098))
-            
+            let restaurantOne = Restaurant(title: "Bubba Gumps", type: "American", coordinate: CLLocationCoordinate2D ( latitude: 21.296980, longitude: -158.055725))
+            let restaurantTwo = Restaurant(title: "Mortons", type: "American", coordinate: CLLocationCoordinate2D ( latitude: 21.298527, longitude: -157.844176))
+            let restaurantThree = Restaurant(title: "Cheesecake Factory", type: "American", coordinate: CLLocationCoordinate2D ( latitude: 21.284575, longitude: -157.826658))
+            let restaurantFour = Restaurant(title: "Ruth Chris", type: "American", coordinate: CLLocationCoordinate2D ( latitude: 21.286708, longitude: -157.831298))
+            let restaurantFive = Restaurant(title: "Kicking Cajun", type: "American", coordinate: CLLocationCoordinate2D ( latitude: 21.299454, longitude: -157.840752))
+            let restaurantSix = Restaurant(title: "Raging Crab", type: "American", coordinate: CLLocationCoordinate2D ( latitude: 21.301527, longitude: -157.841866))
+        
+        
+        
+        
+        
            MapView.addAnnotation(restaurantOne)
             
-        }
+    
         
     }
 
@@ -40,6 +46,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    func centerMapOnLocation(location: CLLocation ){
+        let coordinateRegion = MKCoordinateRegionMakeWithDistance (location.coordinate,regionRadius,regionRadius)
+        MapView.setRegion(coordinateRegion, animated: true)}
 }
 

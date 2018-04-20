@@ -36,6 +36,17 @@ class ViewController: UIViewController {
         
         
            MapView.addAnnotation(restaurantOne)
+        MapView.addAnnotation(restaurantTwo)
+        MapView.addAnnotation(restaurantThree)
+        MapView.addAnnotation(restaurantFour)
+        MapView.addAnnotation(restaurantFive)
+        MapView.addAnnotation(restaurantSix)
+        
+        
+        
+        
+        
+        
             
     
         

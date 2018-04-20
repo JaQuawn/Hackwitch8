@@ -63,6 +63,16 @@
                                 <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Ryp-gT-b95">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ryp-gT-b95" id="bFr-ov-hc5">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -120,11 +130,11 @@
             </objects>
             <point key="canvasLocation" x="932" y="821"/>
         </scene>
-        <!--Item 1-->
+        <!--Eats-->
         <scene sceneID="Faq-yA-ock">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TIe-1Q-KDs" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="Dby-So-luc"/>
+                    <tabBarItem key="tabBarItem" title="Eats" image="restaurant" id="Dby-So-luc"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="o1u-za-WmB">
                         <rect key="frame" x="0.0" y="20" width="320" height="44"/>
@@ -139,11 +149,11 @@
             </objects>
             <point key="canvasLocation" x="1942.5" y="482.74647887323943"/>
         </scene>
-        <!--Item-->
+        <!--Maps-->
         <scene sceneID="gKN-qP-ETc">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eEI-TJ-BRC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Xzl-Fm-z3y"/>
+                    <tabBarItem key="tabBarItem" title="Maps" image="worldwide_location" id="Xzl-Fm-z3y"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2ka-ht-DsV">
                         <rect key="frame" x="0.0" y="20" width="320" height="44"/>
@@ -159,4 +169,8 @@
             <point key="canvasLocation" x="1942.5" y="1165.1408450704225"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="restaurant" width="30" height="30"/>
+        <image name="worldwide_location" width="30" height="30"/>
+    </resources>
 </document>

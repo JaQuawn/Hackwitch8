@@ -8,9 +8,12 @@
 
 import UIKit
 
-class myListVC: UIViewController {
+class myListVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
 
     @IBOutlet weak var tableView: UITableView!
+    
+    var restaurantArray = [ " Bubba Gumps", " Mortons", " Cheesecake Factory" , "Ruthchris", "kickingcajun", " Raging Crab"]
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -18,10 +21,29 @@ class myListVC: UIViewController {
     }
 
     override func didReceiveMemoryWarning() {
+        
+        self.tableView.dataSource = self
+        
+        
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return restaurantArray.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier:"cellReuseIdentifier")
+        let text = restaurantArray[indexPath.row]
+        cell?.textLabel?.text = text
+        return cell!
+        
+    }
 
     /*
     // MARK: - Navigation

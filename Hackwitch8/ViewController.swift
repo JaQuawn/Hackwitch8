@@ -14,7 +14,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var MapView: MKMapView!
     
-    let initialLocation = CLLocation ( latitude: 21.361888, longitude: -158.055725)
+    let initialLocation = CLLocation ( latitude: 21.301154, longitude: -157.843318)
     let regionRadius: CLLocationDistance = 1000
     
     override func viewDidLoad() {

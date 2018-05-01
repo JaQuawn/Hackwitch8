@@ -4,5 +4,7 @@
 <dict>
 	<key>restaurantImages</key>
 	<array/>
+	<key>item 0</key>
+	<string>Bubba Gump</string>
 </dict>
 </plist>

@@ -26,10 +26,10 @@ class ViewController: UIViewController {
             
             let restaurantOne = Restaurant(title: "Bubba Gumps", type: "American", coordinate: CLLocationCoordinate2D ( latitude: 21.296980, longitude: -158.055725))
             let restaurantTwo = Restaurant(title: "Mortons", type: "American", coordinate: CLLocationCoordinate2D ( latitude: 21.298527, longitude: -157.844176))
-            let restaurantThree = Restaurant(title: "Cheesecake Factory", type: "American", coordinate: CLLocationCoordinate2D ( latitude: 21.284575, longitude: -157.826658))
-            let restaurantFour = Restaurant(title: "Ruth Chris", type: "American", coordinate: CLLocationCoordinate2D ( latitude: 21.286708, longitude: -157.831298))
-            let restaurantFive = Restaurant(title: "Kicking Cajun", type: "American", coordinate: CLLocationCoordinate2D ( latitude: 21.299454, longitude: -157.840752))
-            let restaurantSix = Restaurant(title: "Raging Crab", type: "American", coordinate: CLLocationCoordinate2D ( latitude: 21.301527, longitude: -157.841866))
+            let restaurantThree = Restaurant(title: "Tanaka of Tokyo", type: "American", coordinate: CLLocationCoordinate2D ( latitude: 21.291019, longitude: -157.841953))
+            let restaurantFour = Restaurant(title: "Mai Tai's", type: "American", coordinate: CLLocationCoordinate2D ( latitude: 21.290641, longitude: -157.842269))
+            let restaurantFive = Restaurant(title: "Mcdonald's", type: "American", coordinate: CLLocationCoordinate2D ( latitude: 21.297414, longitude: -157.840465))
+            let restaurantSix = Restaurant(title: "Cinnabon", type: "American", coordinate: CLLocationCoordinate2D ( latitude: 21.290462, longitude: -157.843226))
         
         
         

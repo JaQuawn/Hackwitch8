@@ -15,6 +15,7 @@
 		7FFEED252072BF8F00795F5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FFEED232072BF8F00795F5F /* LaunchScreen.storyboard */; };
 		7FFEED2F2072C9E000795F5F /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFEED2E2072C9E000795F5F /* Restaurant.swift */; };
 		F2135EF8208AA2D700BF1DE2 /* myListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2135EF7208AA2D700BF1DE2 /* myListVC.swift */; };
+		F25DC6EC20982B4900221415 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25DC6EB20982B4900221415 /* detailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		7FFEED262072BF9000795F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FFEED2E2072C9E000795F5F /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		F2135EF7208AA2D700BF1DE2 /* myListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myListVC.swift; sourceTree = "<group>"; };
+		F25DC6EB20982B4900221415 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				7FFEED1E2072BF8F00795F5F /* Main.storyboard */,
 				7F32D104208E79B200BE05A2 /* Property List.plist */,
 				F2135EF7208AA2D700BF1DE2 /* myListVC.swift */,
+				F25DC6EB20982B4900221415 /* detailViewController.swift */,
 				7FFEED212072BF8F00795F5F /* Assets.xcassets */,
 				7FFEED232072BF8F00795F5F /* LaunchScreen.storyboard */,
 				7FFEED262072BF9000795F5F /* Info.plist */,
@@ -149,6 +152,7 @@
 				F2135EF8208AA2D700BF1DE2 /* myListVC.swift in Sources */,
 				7FFEED1D2072BF8F00795F5F /* ViewController.swift in Sources */,
 				7FFEED1B2072BF8F00795F5F /* AppDelegate.swift in Sources */,
+				F25DC6EC20982B4900221415 /* detailViewController.swift in Sources */,
 				7FFEED2F2072C9E000795F5F /* Restaurant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

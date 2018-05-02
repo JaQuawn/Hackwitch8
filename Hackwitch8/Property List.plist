@@ -2,11 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>restaurantTitle</key>
-	<array/>
-	<key>restaurantInfo</key>
-	<array/>
 	<key>restaurantImages</key>
-	<array/>
+	<array>
+		<string>Bubba Gumps</string>
+		<string>Tanaka of Tokyo</string>
+		<string>Mortons</string>
+		<string>Mai Tai&apos;s</string>
+		<string>Mcdonalds</string>
+		<string>Cinnabon</string>
+	</array>
 </dict>
 </plist>

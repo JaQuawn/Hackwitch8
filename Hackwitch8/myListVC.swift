@@ -46,7 +46,7 @@ class myListVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         cell?.textLabel?.text = text
         return cell!
         
-        func tableView(_ tableView:UITableView, didSelectRowAt indexpath: IndexPath  ){
+        func tableView (_ tableView:UITableView, didSelectRowAt indexpath: IndexPath  ) {
             tableView.deselectRow(at: <#T##IndexPath#>, animated: true)
         }
         
@@ -56,7 +56,7 @@ class myListVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         let path = Bundle.main.path(forResource: "Property list", ofType:"pList")
         let dict = NSDictionary(contentsOfFile: path!)
        
-        restaurantImageData = dict!.object(forKey: restaurantImage) as! [String]
+        restaurantImageData = dict!.object(forKey: restaurantImageData) as! [String]
         
         
             

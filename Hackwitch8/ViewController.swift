@@ -52,11 +52,11 @@ class ViewController: UIViewController {
         
     }
 
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "mySegue"
-        {
-    
-    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+
     func centerMapOnLocation(location: CLLocation ){
         let coordinateRegion = MKCoordinateRegionMakeWithDistance (location.coordinate,regionRadius,regionRadius)
         MapView.setRegion(coordinateRegion, animated: true)}

@@ -18,9 +18,7 @@ class detailViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        if let imageName = imagePass {
-            imageView.image = UIImage(named: restaurantImageData )
-        }
+       
     }
 
     override func didReceiveMemoryWarning() {

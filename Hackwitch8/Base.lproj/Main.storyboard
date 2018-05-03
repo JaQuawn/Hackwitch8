@@ -74,7 +74,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="UP1-Qf-GUS" kind="show" id="A8N-RU-Dbc"/>
+                                            <segue destination="UP1-Qf-GUS" kind="show" identifier="mySegue" id="A8N-RU-Dbc"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

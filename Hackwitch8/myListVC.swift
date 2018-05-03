@@ -13,12 +13,19 @@ class myListVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
     
-    var restaurantArray = [ " Bubba Gumps", " Mortons", " Tanaka of Tokyo" , "Mai Tai's", "Mcdonald's", " Cinnabon"]
+    var restaurantArray = [ " BubbaGump", " Mortons", " Tanaka of Tokyo" , "Mai Tai's", "Mcdonald's", " Cinnabon"]
     
     var restaurantImageData = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       
+        
+
+       
+        
+       
+        
 
         // Do any additional setup after loading the view.
     }
@@ -46,23 +53,16 @@ class myListVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         cell?.textLabel?.text = text
         return cell!
         
-        func tableView (_ tableView:UITableView, didSelectRowAt indexpath: IndexPath  ) {
-            tableView.deselectRow(at: <#T##IndexPath#>, animated: true)
-        }
+    }
+    
         
       
-        
-        
-        let path = Bundle.main.path(forResource: "Property list", ofType:"pList")
-        let dict = NSDictionary(contentsOfFile: path!)
-       
-        restaurantImageData = dict!.object(forKey: restaurantImageData) as! [String]
-        
+    
         
             
     
         
-    }
+
 
     /*
     // MARK: - Navigation
